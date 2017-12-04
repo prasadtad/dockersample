@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace dockersample.tests
+namespace DockerSample.tests
 {
     public class Sample
     {

@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Autofac.Extensions.DependencyInjection;
-using dockersample.Setup;
+using DockerSample.Setup;
 
-namespace dockersample
+namespace DockerSample
 {
     public class Program
     {

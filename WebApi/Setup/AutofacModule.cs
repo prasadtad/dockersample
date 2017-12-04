@@ -1,6 +1,6 @@
 using Autofac.Core;
 
-namespace dockersample.Setup
+namespace DockerSample.Setup
 {
     internal class AutofacModule : IModule
     {
