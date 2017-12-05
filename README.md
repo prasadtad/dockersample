@@ -3,7 +3,7 @@
 ## To run the containers
 
 ### To build: 
-dotnet publish WebApi -c Release -o WebApi/app
+dotnet publish WebApi -c Release -o app
 sudo docker-compose build
 
 ### To run: 
