@@ -2,16 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading;
+using System.Threading.Tasks;
 using DockerSample.Data;
 using DockerSample.Models;
 using Mongo2Go;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
-using Moq;
 using Newtonsoft.Json;
 using Xunit;
 
@@ -41,7 +36,7 @@ namespace DockerSample.Tests
         }
 
         [Fact]
-        public async void TestFind()
+        public async Task TestFindAsync()
         {
             var dataCollection = new DataCollection<Product>(MongoDatabase.GetCollection<Product>("products"));
             var products = (await dataCollection.FindAsync(FilterDefinition<Product>.Empty)).ToList();

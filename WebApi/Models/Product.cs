@@ -1,9 +1,16 @@
+using System;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 
 namespace DockerSample.Models
 {
     public class Product
     {
+        [BsonId]
+        [JsonIgnore]
+        public ObjectId MongoId { get; set; }
+
         [BsonElement("id")]
         public int Id { get; set; }
 

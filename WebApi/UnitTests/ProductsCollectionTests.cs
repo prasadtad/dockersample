@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
+using System.Threading.Tasks;
 using DockerSample.Data;
 using DockerSample.Models;
 using MongoDB.Bson;
@@ -14,7 +15,7 @@ namespace DockerSample.Tests
     public class ProductsCollectionTests
     {
         [Fact]
-        public async void TestGetProductsByPrice()
+        public async Task TestGetProductsByPriceAsync()
         {
             var mockProducts = new List<Product>
             {
@@ -34,7 +35,7 @@ namespace DockerSample.Tests
         }
 
         [Fact]
-        public async void TestGetFantasticProducts()
+        public async Task TestGetFantasticProductsAsync()
         {
             var mockProducts = new List<Product>
             {
@@ -51,7 +52,7 @@ namespace DockerSample.Tests
         }
 
         [Fact]
-        public async void TestGetNonFantasticProducts()
+        public async Task TestGetNonFantasticProductsAsync()
         {
             var mockProducts = new List<Product>
             {
@@ -68,7 +69,7 @@ namespace DockerSample.Tests
         }
 
         [Fact]
-        public async void TestGetProductsByRating()
+        public async Task TestGetProductsByRatingAsync()
         {
             var mockProducts = new List<Product>
             {

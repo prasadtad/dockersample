@@ -1,0 +1,71 @@
+Attaching to dockersample_webapi_1, dockersample_mongo_1
+[36mwebapi_1  |[0m Did you mean to run dotnet SDK commands? Please install dotnet SDK from: 
+[36mwebapi_1  |[0m   http://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409
+[36mwebapi_1  |[0m Did you mean to run dotnet SDK commands? Please install dotnet SDK from: 
+[36mwebapi_1  |[0m   http://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=06b4bdca061c
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] db version v3.4.10
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t  3 May 2016
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] modules: none
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] build environment:
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten]     distmod: debian81
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[33mmongo_1   |[0m 2017-12-04T12:46:23.059+0000 I CONTROL  [initandlisten] options: {}
+[33mmongo_1   |[0m 2017-12-04T12:46:23.065+0000 I STORAGE  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:46:23.065+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mmongo_1   |[0m 2017-12-04T12:46:23.065+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mmongo_1   |[0m 2017-12-04T12:46:23.065+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1462M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+[33mmongo_1   |[0m 2017-12-04T12:46:23.167+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+[33mmongo_1   |[0m 2017-12-04T12:46:23.168+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:46:23.207+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[33mmongo_1   |[0m 2017-12-04T12:46:23.261+0000 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+[33mmongo_1   |[0m 2017-12-04T12:46:23.261+0000 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+[33mmongo_1   |[0m 2017-12-04T12:46:23.262+0000 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+[33mmongo_1   |[0m 2017-12-04T12:46:23.262+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+[33mmongo_1   |[0m 2017-12-04T12:46:23.262+0000 I NETWORK  [thread1] waiting for connections on port 27017
+[33mmongo_1   |[0m 2017-12-04T12:48:46.018+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+[33mmongo_1   |[0m 2017-12-04T12:48:46.018+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+[33mmongo_1   |[0m 2017-12-04T12:48:46.018+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+[33mmongo_1   |[0m 2017-12-04T12:48:46.018+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+[33mmongo_1   |[0m 2017-12-04T12:48:46.018+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+[33mmongo_1   |[0m 2017-12-04T12:48:46.019+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+[33mmongo_1   |[0m 2017-12-04T12:48:46.019+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+[33mmongo_1   |[0m 2017-12-04T12:48:46.020+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+[33mmongo_1   |[0m 2017-12-04T12:48:46.142+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+[33mmongo_1   |[0m 2017-12-04T12:48:46.143+0000 I CONTROL  [signalProcessingThread] now exiting
+[33mmongo_1   |[0m 2017-12-04T12:48:46.143+0000 I CONTROL  [initandlisten] shutting down with code:0
+[33mmongo_1   |[0m 2017-12-04T12:49:18.047+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=06b4bdca061c
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] db version v3.4.10
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t  3 May 2016
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] modules: none
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] build environment:
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten]     distmod: debian81
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten]     distarch: x86_64
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+[33mmongo_1   |[0m 2017-12-04T12:49:18.050+0000 I CONTROL  [initandlisten] options: {}
+[33mmongo_1   |[0m 2017-12-04T12:49:18.066+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+[33mmongo_1   |[0m 2017-12-04T12:49:18.066+0000 I STORAGE  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:49:18.066+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+[33mmongo_1   |[0m 2017-12-04T12:49:18.066+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+[33mmongo_1   |[0m 2017-12-04T12:49:18.066+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1462M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+[33mmongo_1   |[0m 2017-12-04T12:49:18.543+0000 I CONTROL  [initandlisten] 
+[33mmongo_1   |[0m 2017-12-04T12:49:18.551+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+[33mmongo_1   |[0m 2017-12-04T12:49:18.552+0000 I NETWORK  [thread1] waiting for connections on port 27017
