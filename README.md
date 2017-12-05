@@ -1,10 +1,8 @@
 # dockersample
 
-## To run the containers
+## To build: 
+- dotnet publish WebApi -c Release -o app
+- sudo docker-compose build
 
-### To build: 
-dotnet publish WebApi -c Release -o WebApi/app
-sudo docker-compose build
-
-### To run: 
-sudo docker-compose up -d
+## To run: 
+- sudo docker-compose up -d
