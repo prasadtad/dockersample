@@ -11,9 +11,10 @@ namespace DockerSample
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
+                .UseUrls("http://+:5000")
                 .UseKestrel()
                 .ConfigureServices(services => services.AddAutofac())
-                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseContentRoot(Directory.GetCurrentDirectory())                
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();

@@ -1,0 +1,4 @@
+FROM mongo
+COPY MockData.json /MockData.json
+CMD mongoimport --host mongodb --db local --collection products --type json --file /MockData.json --jsonArray
+

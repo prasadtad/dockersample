@@ -21,7 +21,7 @@ namespace DockerSample.Setup
         }
 
         private IMongoCollection<T> GetMongoCollection<T>() {
-            var client = new MongoClient();
+            var client = new MongoClient("mongodb://mongodb:27017");
             return client.GetDatabase("local").GetCollection<T>("products");
         }
     }
