@@ -1,12 +1,21 @@
+using Autofac;
 using Autofac.Core;
+using DockerSample.Data;
+using DockerSample.Models;
 
 namespace DockerSample.Setup
 {
-    internal class AutofacModule : IModule
+    internal class AutofacModule : Module
     {
-        void IModule.Configure(IComponentRegistry componentRegistry)
+        protected override void Load(ContainerBuilder builder)
         {
-            throw new System.NotImplementedException();
+            builder.RegisterType<DataCollection<Product>>()
+                    .As<IDataCollection<Product>>()
+                    .SingleInstance();
+
+            builder.RegisterType<ProductsCollection>()
+                    .As<IProductsCollection>()
+                    .SingleInstance();
         }
     }
 }
