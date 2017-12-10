@@ -13,9 +13,8 @@ In the /dockersample directory,
 - sudo docker-compose build
 
 ## To start: 
-In the /dockersample directory,
+In the /dockersample directory, this should start three containers for mongodb, webapi and mongo_seed. mongo_seed will shutdown after filling the database.
 - sudo docker-compose up -d
-This should start three containers for mongodb, webapi and mongo_seed. mongo_seed will shutdown after filling the database.
 
 ## To run:
 The following get requests should work
