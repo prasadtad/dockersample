@@ -8,6 +8,7 @@ In the /dockersample/WebApi directory,
 
 ## To build: 
 In the /dockersample directory,
+- dotnet restore WebApi
 - dotnet publish WebApi -c Release -o app
 - sudo docker-compose build
 
