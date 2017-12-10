@@ -1,5 +1,7 @@
 # dockersample
 
+There is an assumption that you have already installed the version of [Dotnet core](https://github.com/dotnet/core/releases/tag/v1.1.5) used by the sample.
+
 ## To test:
 In the /dockersample/WebApi directory,
  - dotnet xunit
